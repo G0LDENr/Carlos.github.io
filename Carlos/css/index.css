@@ -1,0 +1,78 @@
+/* Configuración general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Contenedor principal */
+.info-container {
+    width: 90%;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* Contenido de información */
+.info-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/* Imagen del perfil */
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+/* Texto informativo */
+.info-text h2 {
+    margin: 0 0 10px;
+    font-size: 1.8em;
+    color: #222;
+}
+
+.info-text p {
+    margin: 5px 0;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #555;
+}
+
+.info-text p strong {
+    color: #333;
+}
+
+/* Enlaces sociales */
+.social-links {
+    margin-top: 15px;
+}
+
+.social-link {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 0.9em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.social-link:hover {
+    background-color: #0056b3;
+}
